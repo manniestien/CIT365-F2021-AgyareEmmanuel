@@ -1,4 +1,5 @@
-﻿namespace MegaDesk-Agyare
+﻿namespace MegaDesk_Agyare
+{
     partial class DisplayQuote
     {
         /// <summary>
@@ -400,7 +401,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::MegaDesk_Wood.Properties.Resources.WoodBackground;
+          //  this.BackgroundImage = global::MegaDesk_Agyare.Properties.Resources.WoodBackground;
             this.ClientSize = new System.Drawing.Size(564, 441);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.btnSaveQuote);
@@ -410,7 +411,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnCancelQuote);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+         //   this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "DisplayQuote";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

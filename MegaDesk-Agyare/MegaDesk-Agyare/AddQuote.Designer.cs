@@ -1,4 +1,4 @@
-﻿namespace MegaDesk-Agyare
+﻿namespace MegaDesk_Agyare
 {
     partial class AddQuote
     {
@@ -843,7 +843,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::MegaDesk_Wood.Properties.Resources.WoodBackground;
+           // this.BackgroundImage = global::MegaDesk_Wood.Properties.Resources.WoodBackground;
             this.ClientSize = new System.Drawing.Size(618, 670);
             this.Controls.Add(this.grpQuoteSummary);
             this.Controls.Add(this.btnSubmitDisplayQuote);
