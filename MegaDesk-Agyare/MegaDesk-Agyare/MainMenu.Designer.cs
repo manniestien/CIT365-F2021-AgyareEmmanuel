@@ -32,14 +32,13 @@
             this.btnViewQuotes = new System.Windows.Forms.Button();
             this.btnSearchQuotes = new System.Windows.Forms.Button();
             this.btnExitMainMenu = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnAddNewQuote
             // 
             this.btnAddNewQuote.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F);
             this.btnAddNewQuote.Location = new System.Drawing.Point(38, 38);
-            this.btnAddNewQuote.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAddNewQuote.Margin = new System.Windows.Forms.Padding(2);
             this.btnAddNewQuote.Name = "btnAddNewQuote";
             this.btnAddNewQuote.Size = new System.Drawing.Size(134, 41);
             this.btnAddNewQuote.TabIndex = 0;
@@ -51,7 +50,7 @@
             // 
             this.btnViewQuotes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F);
             this.btnViewQuotes.Location = new System.Drawing.Point(38, 99);
-            this.btnViewQuotes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnViewQuotes.Margin = new System.Windows.Forms.Padding(2);
             this.btnViewQuotes.Name = "btnViewQuotes";
             this.btnViewQuotes.Size = new System.Drawing.Size(134, 41);
             this.btnViewQuotes.TabIndex = 1;
@@ -63,7 +62,7 @@
             // 
             this.btnSearchQuotes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F);
             this.btnSearchQuotes.Location = new System.Drawing.Point(38, 163);
-            this.btnSearchQuotes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSearchQuotes.Margin = new System.Windows.Forms.Padding(2);
             this.btnSearchQuotes.Name = "btnSearchQuotes";
             this.btnSearchQuotes.Size = new System.Drawing.Size(134, 41);
             this.btnSearchQuotes.TabIndex = 2;
@@ -75,7 +74,7 @@
             // 
             this.btnExitMainMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F);
             this.btnExitMainMenu.Location = new System.Drawing.Point(38, 228);
-            this.btnExitMainMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnExitMainMenu.Margin = new System.Windows.Forms.Padding(2);
             this.btnExitMainMenu.Name = "btnExitMainMenu";
             this.btnExitMainMenu.Size = new System.Drawing.Size(134, 41);
             this.btnExitMainMenu.TabIndex = 3;
@@ -83,35 +82,21 @@
             this.btnExitMainMenu.UseVisualStyleBackColor = true;
             this.btnExitMainMenu.Click += new System.EventHandler(this.btnExitMainMenu_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(275, 269);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(182, 43);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Mega Desk";
-            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(524, 321);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnExitMainMenu);
             this.Controls.Add(this.btnSearchQuotes);
             this.Controls.Add(this.btnViewQuotes);
             this.Controls.Add(this.btnAddNewQuote);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "MainMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Mega Desk 2.0 - Main Menu";
+            this.Text = "Mega Desk-Agyare";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -121,7 +106,6 @@
         private System.Windows.Forms.Button btnViewQuotes;
         private System.Windows.Forms.Button btnSearchQuotes;
         private System.Windows.Forms.Button btnExitMainMenu;
-        private System.Windows.Forms.Label label1;
     }
 }
 
